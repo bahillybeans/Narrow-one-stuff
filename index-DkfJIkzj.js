@@ -873,6 +873,10 @@ async function ae(e, t, r) {
             o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/speed-coil-face-corner.glb", {
                 signal: t
             })
+        } else if (e == "pokeLightShortSpear") {
+            o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/pokeLight.glb", {
+                signal: t
+            })
         } else {
             o = await fetch(globalThis.configBasePath + "skins/" + e + ".glb?v=1754579115", {
                 signal: t
