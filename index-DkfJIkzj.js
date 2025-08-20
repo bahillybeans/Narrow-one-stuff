@@ -878,7 +878,7 @@ async function ae(e, t, r) {
                 signal: t
             })
         } else if (e == "bladedHeavyTwoHandedSword") {
-            o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/bladedHeavyThing.glb", {
+            o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/bladedHeavyThing2.glb", {
                 signal: t
             })
         } else {
