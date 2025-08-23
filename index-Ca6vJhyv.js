@@ -1,4 +1,3 @@
-
 import "./subworkers-f28dd231-DEgT2DJG.js";
 import {ae as e, af as t, B as r, b as o, ag as a, d as n, t as s, O as i, ah as c, ai as l, K as d, n as u, N as f, S as m, aj as h, ak as g, al as p, am as w, V as b, Q as y, Y as x, Z as D, an as A, M as T, ao as M, ap as E, z as P, p as k, aq as I, ar as C, e as v, q as S, T as j} from "./colors-6hnOJkmq.js";
 const O = new WeakMap;
@@ -879,7 +878,7 @@ async function ae(e, t, r) {
                 signal: t
             })
         } else if (e == "bloodlustBarbarianArrow") {
-            o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/bloodlustArrow.glb", {
+            o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/bloodlustArrow2.glb", {
                 signal: t
             })
         } else if (e == "bladedHeavyTwoHandedSword") {
