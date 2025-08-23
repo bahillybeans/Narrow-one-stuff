@@ -878,6 +878,10 @@ async function ae(e, t, r) {
             o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/pokeLight.glb", {
                 signal: t
             })
+        } else if (e == "bloodlustBarbarianArrow") {
+            o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/bloodlustArrow.glb", {
+                signal: t
+            })
         } else if (e == "bladedHeavyTwoHandedSword") {
             o = await fetch("https://raw.githubusercontent.com/bahillybeans/Narrow-one-stuff/main/bladedHeavyThing2.glb", {
                 signal: t
